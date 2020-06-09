@@ -12,7 +12,8 @@ class App < Sinatra::Base
     erb :square
   end 
 
-  get '/say/:number/:phrase'
+  get '/say/:number/:phrase' do 
+  end 
  
 
 end
